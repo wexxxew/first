@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Martian+Mono:wght@300&family=Roboto:ital,wght@0,500;1,400&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #f1f1f1;
+    color: black;
+}
+a{
+    color: lightblue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: lightcoral;
+}
+a:active{
+    color: lightblue;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+.avatar{
+    width: 280px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px lightcoral;
+    margin-right: 90px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    margin-bottom: 999px;
+    flex-direction: column;
+}
+.info-text{
+    margin: 30px;
+}
+.info-text p{
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+@media (max-width: 650px){
+    .info {
+      display: block;
+      text-align: center;
+    }
+}
+.info-text h2{
+    margin-bottom: 15px;
+}
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 15px;
+}
+.blue{
+    background-color: lightblue;
+}
+.red{
+    background-color: lightcoral;
+}
+.btn{
+    background-color: lightblue;
+    padding: 5px 10px;
+    color: black;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.list{
+    padding: 5px 20px;
+}
+.list li{
+    color: black;
+    margin: 10px;
+    opacity: 0.8;
+}
+.form h2{
+    text-align: center;
+}
+.form-row{
+    margin: 15px;
+    display: flex;
+}
+.form-row .form-group{
+    width: 60%;
+    margin: 10px;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    color: black;
+    padding: 15px 15px 15px;
+    outline: none;
+    font-family: inherit;
+}
+
