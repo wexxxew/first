@@ -2,4 +2,4 @@
 
 Результат ниже
 
-[Первый проект по HTML и CSS] (https://wexxxew.github.io/first/)
+[Первая работа по HTML и CSS](https://wexxxew.github.io/first/)
